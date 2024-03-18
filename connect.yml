@@ -1,0 +1,9 @@
+---
+- name: Connect to destination VMs
+  hosts: all
+  become: true
+  tasks:
+
+  - name: Example task (replace with your task)
+    debug:
+      msg: "Connected to {{ inventory_hostname }}"
